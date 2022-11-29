@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeeCake</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/vendors/chartjs/Chart.min.css">
+    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css"> -->
+    <link rel="stylesheet" href="../css/app.css">
+    <!-- <link rel="shortcut icon" href="../img/favicon.svg" type="image/x-icon"> -->
+</head>
+
+<body>
+    <div id="app">
+        <div id="sidebar" class='active'>
+            <div class="sidebar-wrapper active">
+                <div class="sidebar-header">
+                    <a href="./layout.html"><img src="../img/logo1.jpg" alt="" srcset=""></a>
+                </div>
+                <div class="sidebar-menu">
+                    <ul class="menu">
+
+
+                        <li class='sidebar-title'>Main Menu</li>
+
+                        <li class="sidebar-item  has-sub">
+
+                            <a href="./danhmuc.html" class='sidebar-link'>
+                                <i data-feather="triangle" width="20"></i>
+                                <span>Danh mục</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item  has-sub">
+
+                            <a href="./sanpham.html" class='sidebar-link'>
+                                <i data-feather="triangle" width="20"></i>
+                                <span>Sản phẩm</span>
+                            </a>
+                        </li>
+
+
+                        <li class="sidebar-item  has-sub">
+
+                            <a href="./khachhang.html" class='sidebar-link'>
+                                <i data-feather="briefcase" width="20"></i>
+                                <span>Khách hàng</span>
+                            </a>
+
+                        </li>
+                        <li class="sidebar-item  has-sub">
+
+                            <a href="./binhluan.html" class='sidebar-link'>
+                                <i data-feather="briefcase" width="20"></i>
+                                <span>Bình luận</span>
+                            </a>
+
+                        </li>
+                        <li class="sidebar-item  has-sub">
+
+                            <a href="./thongke.html" class='sidebar-link'>
+                                <i data-feather="briefcase" width="20"></i>
+                                <span>Thống kê</span>
+                            </a>
+
+                        </li>
+                        <li class="sidebar-item  has-sub">
+
+                            <a href="./giohang.html" class='sidebar-link'>
+                                <i data-feather="briefcase" width="20"></i>
+                                <span>Giỏ hàng</span>
+                            </a>
+
+                        </li>
+
+
+
+
+
+                        <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+                </div>
+            </div>
+            <div id="main">
+                <nav class="navbar navbar-header navbar-expand navbar-light">
+                   
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav d-flex align-items-center navbar-light ms-auto">
+                           
+                            <li class="dropdown nav-icon me-2">
+                                <a href="#" data-bs-toggle="dropdown"
+                                    class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+                                    <div class="d-lg-inline-block">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item" href="#"><i class="far fa-user"></i> Account</a>
+                                    <a class="dropdown-item active" href="#"><i data-feather="mail"></i> Messages</a>
+                                    <a class="dropdown-item" href="#"><i data-feather="settings"></i> Settings</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><i data-feather="log-out"></i> Logout</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-bs-toggle="dropdown"
+                                    class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+                                    <div class="avatar me-1">
+                                        <img src="../img/logo1.jpg" alt="" srcset="">
+                                    </div>
+                                    <div class="d-none d-md-block d-lg-inline-block">Hi, Saugi</div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item" href="#"><i data-feather="user"></i> Account</a>
+                                    <a class="dropdown-item active" href="#"><i data-feather="mail"></i> Messages</a>
+                                    <a class="dropdown-item" href="#"><i data-feather="settings"></i> Settings</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><i data-feather="log-out"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+<div class="main-content container-fluid">
+    <div class="page-title">
+        <h3 class="h3">Sản phẩm</h3>
+         
+        <table class="table  ">
+            <thead>
+                <tr>
+                  <th scope="col">Mã bánh</th>
+                  <th scope="col">Tên bánh</th>
+                  <th scope="col">Mô tả</th>
+                  <th scope="col">Thành tiền</th>
+                  <th scope="col">Hoạt động</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>Otto</td>
+                  <td><a href="" class="btn btn-warning"> Thêm </a>
+                    <a href="" class="btn btn-info">Sửa</a>
+                    <a href="" class="btn btn-danger">Xóa</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>Otto</td>
+                  <td><a href="" class="btn btn-warning"> Thêm </a>
+                    <a href="" class="btn btn-info">Sửa</a>
+                    <a href="" class="btn btn-danger">Xóa</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>Otto</td>
+                  <td><a href="" class="btn btn-warning"> Thêm </a>
+                    <a href="" class="btn btn-info">Sửa</a>
+                    <a href="" class="btn btn-danger">Xóa</a></td>
+                </tr>
+              </tbody>
+          </table>
+        </div>
+      
+        </div>
+    </div>
+    <script src="assets/js/feather-icons/feather.min.js"></script>
+    <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    
+    <script src="assets/vendors/chartjs/Chart.min.js"></script>
+    <script src="assets/vendors/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/js/pages/dashboard.js"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
