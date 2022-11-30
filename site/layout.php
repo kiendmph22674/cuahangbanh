@@ -22,8 +22,17 @@
 
             </div>
             <div class="header-right">
-                <a href="./admin/login.html"><i class="fas fa-user"></i><strong>Đăng nhập</strong> hoặc <strong>Đăng
-                        ký</strong></span></a>
+                <!-- <a href="../users/login.php"><i class="fas fa-user"></i><strong>Đăng nhập</strong> -->
+                <!-- <a href="../users/logout.php"></a><strong>Dang xuat</strong> -->
+                <?php if(isset($_SESSION['data_user'])){
+                echo '<a href="../users/logout.php"><strong>Dang xuat</strong></a>';
+
+                }else{
+                    echo '<a href="../users/login.php"><i class="fas fa-user"></i><strong>Đăng nhập</strong></a>';
+                }
+                
+                
+                ?>
 
             </div>
         </div>
